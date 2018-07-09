@@ -11,6 +11,8 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    //
+
     private String title;
     private String isbn;
     private String publisher;
